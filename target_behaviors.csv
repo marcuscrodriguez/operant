@@ -1,0 +1,12 @@
+id_rank,target_behavior,modified_behavior
+1,throwing dirty clothes on floor,putting dirty clothes in hamper
+2,leaving dirty dishes out,put dirty dishes in sink/wash
+3,leaving food on counter,put food back in refrigerator/cupboard
+4,not dusting ,dust
+5,not vacuuming,vacuum
+6,leaving bed unmade,make the bed in morning
+7,collecting clutter and old clothes,throw out/donate old clothes
+8,leaving lights on after leaving a room/closet,turn lights off when leaving
+9,leaving mess,pick up after self
+10,"leaving caps off (toothpaste, bottles, etc)",put caps back on
+11,leaving pantry doors open,close pantry doors

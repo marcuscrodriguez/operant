@@ -1,0 +1,11 @@
+
+---
+
+### ✅ `requirements.txt` (minimal dependencies)
+
+```text
+streamlit>=1.34
+pandas
+numpy
+matplotlib
+

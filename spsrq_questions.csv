@@ -1,0 +1,49 @@
+id,question,type
+1,Do you often do things to be praised?,reward
+2,Do you generally give preference to those activities that imply an immediate gain?,reward
+3,Do you often do things for money even though you do not like them?,reward
+4,Does the good prospect of obtaining money motivate you strongly to do some things?,reward
+5,Do you often meet people that you find physically attractive?,reward
+6,"When you start to play with a slot machine, is it difficult for you to stop?",reward
+7,Do you like being the center of attention at a party or a social meeting?,reward
+8,Do you often get carried away by your feelings?,reward
+9,Are you interested in knowing what people think of you?,reward
+10,Do you often do things to be admired?,reward
+11,Do you often say things for the possibility of being praised?,reward
+12,Does the possibility of social reward encourage you to try hard?,reward
+13,Are you interested in activities that provide immediate satisfaction?,reward
+14,Do you find it difficult to resist temptations?,reward
+15,Do you usually give preference to activities that provide you with pleasure?,reward
+16,Are you interested in fame or recognition?,reward
+17,Do you often buy things impulsively?,reward
+18,Do you often find yourself being influenced by others’ opinions?,reward
+19,Do you often change your plans if a better opportunity arises?,reward
+20,Do you like taking risks for the excitement?,reward
+21,Do you enjoy doing things that give you a thrill?,reward
+22,Do you enjoy talking in front of a group of people?,reward
+23,Do you find it easy to approach strangers at a party?,reward
+24,Do you enjoy activities that make you stand out?,reward
+25,Do you often refrain from doing something you like in order not to feel guilty afterwards?,punishment
+26,Are you often afraid of new or unexpected situations?,punishment
+27,Do you often worry about things that could go wrong?,punishment
+28,Are you often bothered by thoughts that you cannot get out of your mind?,punishment
+29,Do you often feel anxious without knowing why?,punishment
+30,Do you find it difficult to relax when you are with other people?,punishment
+31,Do you sometimes feel ashamed without a clear reason?,punishment
+32,Are you afraid of making mistakes?,punishment
+33,Do you often think that something bad is going to happen?,punishment
+34,Do you often fear criticism?,punishment
+35,Are you easily discouraged by failure?,punishment
+36,Do you avoid certain situations because they make you feel uncomfortable?,punishment
+37,Do you feel very upset when someone criticizes you?,punishment
+38,Do you have difficulty sleeping due to worrying?,punishment
+39,Are you afraid of being rejected?,punishment
+40,Do you often feel tense or nervous in social situations?,punishment
+41,Do you feel unease when meeting new people?,punishment
+42,Are you afraid of being humiliated in public?,punishment
+43,Do you tend to dwell on negative comments others have made about you?,punishment
+44,Do you feel upset when things do not go as planned?,punishment
+45,Are you afraid of being punished even when you haven’t done anything wrong?,punishment
+46,Do you often relive unpleasant experiences in your mind?,punishment
+47,Do you feel nervous before important events?,punishment
+48,Do you feel bad when you think you've disappointed someone?,punishment
