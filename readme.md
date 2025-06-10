@@ -1,6 +1,6 @@
 # Behavioral Modification System using Operant Conditioning Mock Up PSYC-3220-U71: Learning
 
-This project implements a digital behavioral modification program grounded in classical and operant conditioning theory. It is tailored to an individual with ADHD, using real-time behavioral logging, preference-based reinforcement, and adaptive consequence delivery.
+This project implements a digital behavioral modification program grounded in operant conditioning theory. It is tailored to an individual with ADHD, using real-time behavioral logging, preference-based reinforcement, and adaptive consequence delivery.
 
 ---
 
@@ -27,8 +27,6 @@ Threshold missed → Punisher administered (if ASQ-based sensitivity)
 🧪 Behavioral Theory Integrated
 Reinforcer Deprivation Hypothesis (RDH): Restricted access increases reward strength.
 
-Punishment Augmentation Hypothesis (PAH): Overexposure to disliked tasks increases their suppressive effect.
-
 Bliss Point and Distress Point models included in visualizations.
 
 📦 Output Files
@@ -48,7 +46,8 @@ Timberlake & Allison (1974) – Response Deprivation Theory
 
 Kahneman & Tversky (1979) – Prospect Theory
 
-Torrubia et al. (2001) – SPSRQ
+Torrubia et al. (2001) - SPSRQ
+
 ---
 
 ## 📁 Project Files
