@@ -1,0 +1,12 @@
+index--p5bJXXpQgvPz6yvQMFiy,Mon,Tue,Wed,Thu,Fri,Sat,Sun,Phase,Schedule,Weekly_Threshold_Goal,Total_Stickers_Earned,Log_Timestamp
+putting dirty clothes in hamper,1,1,1,1,1,0,0,Phase II,Fixed Ratio,15,32,2025-06-26T09:55:21.008796
+put dirty dishes in sink/wash,0,1,1,1,0,1,0,Phase II,Fixed Ratio,15,32,2025-06-26T09:55:21.008796
+put food back in refrigerator/cupboard,0,1,1,0,1,0,0,Phase II,Fixed Ratio,15,32,2025-06-26T09:55:21.008796
+dust,0,1,0,0,0,0,0,Phase II,Fixed Ratio,15,32,2025-06-26T09:55:21.008796
+vacuum,0,0,0,0,1,0,0,Phase II,Fixed Ratio,15,32,2025-06-26T09:55:21.008796
+make the bed in morning,1,1,1,0,1,0,0,Phase II,Fixed Ratio,15,32,2025-06-26T09:55:21.008796
+throw out/donate old clothes,0,0,0,0,0,0,0,Phase II,Fixed Ratio,15,32,2025-06-26T09:55:21.008796
+turn lights off when leaving,0,1,0,1,0,0,0,Phase II,Fixed Ratio,15,32,2025-06-26T09:55:21.008796
+pick up after self,0,1,1,1,1,0,0,Phase II,Fixed Ratio,15,32,2025-06-26T09:55:21.008796
+put caps back on,0,1,0,1,1,1,0,Phase II,Fixed Ratio,15,32,2025-06-26T09:55:21.008796
+close pantry doors,0,1,0,1,1,0,1,Phase II,Fixed Ratio,15,32,2025-06-26T09:55:21.008796

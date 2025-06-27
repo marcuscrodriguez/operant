@@ -58,7 +58,7 @@ likert_labels = {
 def show_consent_form():
     if not st.session_state.consent_given:
         st.image("title.png", use_container_width=True, caption="PSYC-3220-U71: Learning, Program By: Marcus C. Rodriguez www.marcusc.com")
-    st.write("The cluttered mobile depicted in the image not only creates the visualiztion of the operant tension between punishment and reward as reflected in the eyes of the mouse, the cat on one side the cheese the other. The image also mirrors the perceptual disarray experienced by individuals with ADHD. For those suffering with impaired executive functioning, the world often presents itself not as a mobile in equilibrium —a balanced hierarchy of incentives and consequences, but as a disorganized field of dangling contingencies — shifting, overlapping, and difficult to parse. The exagerated representation of the Calderesque mobile becomes a stand-in for the chaotic reinforcement environment: unpredictable, overstimulating, and difficult to regulate. Like a cat swiping at a mobile in fascination and confusion, the ADHD brain is drawn toward stimuli without clear direction or consequence discrimination. In this mock study/paper, I attempt to use instrumental conditioning not just to shape behavior, but to impose structure onto disorder, clarity onto chaos — restoring the contingencies that are drowned out by the distraction.")
+    st.write("The cluttered mobile depicted in the image not only creates the visualization of the operant tension between punishment and reward as reflected in the eyes of the mouse, the cat on one side the cheese the other, it also mirrors the perceptual disarray experienced by individuals with ADHD. For those suffering with impaired executive functioning, the world often presents itself not as a mobile in equilibrium reflecting a balanced hierarchy of incentives and consequences, but rather as a disorganized field of dangling contingencies. The field is constantly shifting, overlapping, and difficult to parse. The exaggerated representation of the Calderesque mobile is a metaphor of the  chaotic reinforcement environment: unpredictable, overstimulating, and difficult to regulate. As a cat might swipe at a mobile in fascination and confusion, the ADHD brain is drawn toward stimuli without clear direction or ability to  readily discriminate consequences. In this mock study/paper, I attempt to use instrumental conditioning not just to shape behavior, but to impose structure onto disorder, clarity onto chaos in an effort to restore the contingencies that are drowned out by the distraction.")
 
     st.title("Informed Consent Form")
 
@@ -78,7 +78,7 @@ def show_consent_form():
     By typing your name below and clicking "I Consent", you agree to participate and give electronic consent.
     """)
 
-    st.write("This is a mock project for educational purposes and will involve participation in self-reporting behavior, answering psychological questionnaires, and simulate data relative to receiving behaviorally contingent rewards or punishments.")
+    st.write("This is a mock project for educational purposes and will involve participation in self-reporting behavior, answering psychological questionnaires, and simulating data relative to receiving behaviorally contingent rewards or punishments.")
 
     with st.form("consent_form", clear_on_submit=False):
         name = st.text_input("Type your full name to consent:", value=st.session_state.consent_name)
@@ -263,7 +263,7 @@ def run_asq():
         <i>1 = Strongly Disagree &nbsp;&nbsp;&nbsp; 2 = Disagree &nbsp;&nbsp;&nbsp; 3 = Somewhat Disagree &nbsp;&nbsp;&nbsp; <br> 4 = Neutral <br> 5 = Somewhat Agree &nbsp;&nbsp;&nbsp; 6 = Agree &nbsp;&nbsp;&nbsp; 7 = Strongly Agree</i>
     </div>
     """, unsafe_allow_html=True)
-    st.subheader("How unpleasant is ____________.")
+    st.subheader("How unpleasant is ____________?")
 
     # Load ASQ questions if not already loaded
     if "asq_df" not in st.session_state:
@@ -366,17 +366,17 @@ def plot_bliss_or_distress_point():
             ].values[0]
 
         x = [1, 2, 3, 4, 5]
-        y = [10 - i * 1.5 for i in x]
-        ax.plot(x, y, label="Effort vs. Perceived Punisher Aversiveness", color="red")
-        ax.scatter(3.5, 2.0, color="black", label="Distress Point", s=100, zorder=5)
+        y = [i * 1.5 for i in x]
+        ax.plot(x, y, label="Arousal vs. Perceived Punisher Aversiveness", color="red")
+        ax.scatter(2.5, 7.5, color="black", label="Distress Point", s=100, zorder=5)
         #ax.text(3.5, 5.1, "Distress Point", ha='center', fontsize=8)
         ax.set_title(f"Top Punisher: {top_question}", fontsize=10)
         ax.set_ylabel("Perceived Punisher Aversiveness (PPA)")
-        ax.set_xlabel("Required Sacrificial Effort (RSE)")
+        ax.set_xlabel("Arousal (Arousal)")
         ax.legend()
         plt.tight_layout()
         plt.figtext(0.5, 0.01,
-            "PAH: When a low-frequency behavior is imposed above baseline, it becomes a punisher.",
+            "PAH: When exposure to a low-frequency behavior is imposed above baseline, it becomes a punisher.",
             wrap=True, horizontalalignment='center', fontsize=9, style='italic')
         st.pyplot(fig)
 
